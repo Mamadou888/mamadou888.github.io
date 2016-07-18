@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+
+body {
+  margin: 50px 400px 50px 400px;
+  background-color: blue;
+  border: 100px;
+  border-color: white;
+  font-family: "Oxygen";
+}
+
+h1 {
+  color: red;
+}
+#me {
+  height: 50%;
+  width: 50%;
+}
+footer {
+  position: fixed;
+}
