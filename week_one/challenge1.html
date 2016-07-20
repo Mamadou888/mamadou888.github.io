@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style media="screen">
+  .square {
+    height: 200px;
+    width: 200px;
+    border: 2px black;
+    border-style: solid;
+  }
+  .rectangle {
+    border: 2px black;
+    border-style: dotted;
+    margin-right:1000px;
+  }
+  #red {
+    background-color: red;
+  }
+  #blue {
+    background-color: blue;
+  }
+  #green {
+    background-color: green;
+  }
+  </style>
+</head>
+<body>
+  <div class="rectangle">
+    <div class="square" id="red">
+    </div>
+    <div class="square" id="blue">
+    </div>
+    <div class="square" id="green">
+    </div>
+    <div class="yourBox">
+    </div>
+  </div>
+</body>
+<script type="text/javascript">
+document.write("Wassup");
+var height = prompt("So you want to make a box?" +
+  " What is the height you seek?");
+var width = prompt("Now, what is the width you seek?")
+alert("Press okay and you should see your box.");
+document.getElementById("yourBox").innerHTML = "<h1>Your box goes here</h1>");
+//Ask for the width and height and color
+//Create the square using the parameters asked.
+</script>
+</html>
