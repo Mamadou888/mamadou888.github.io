@@ -1,11 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
 
+html {
+  margin: 50px 500px 50px 500px;
+  background-color: green;
+  border: 1px solid black;
+  font-family: "georgia";
+  text-align: center;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
 body {
-  margin: 50px 400px 50px 400px;
-  background-color: white;
-  border: 100px;
-  border-color: white;
-  font-family: "Oxygen";
+  padding: 15px;
+  background-color: red;
 }
 
 h1 {
